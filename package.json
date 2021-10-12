@@ -1,0 +1,25 @@
+{
+  "name": "morsecode",
+  "version": "1.0.0",
+  "description": "- Create a user interface that allows the user to either input some English text or some Morse Code\r - Create JS functions that would allow the user to translate their English text into Morse Code or Morse Code into English text\r - Make sure to handle spaces properly (ie. there is 1 space between English words, but one space between Morse Code characters)\r - Write tests for all functions that don't interact with the dom\r - Give users feedback when something goes wrong",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harrisonp365/MorseCodeTranslator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harrisonp365/MorseCodeTranslator/issues"
+  },
+  "homepage": "https://github.com/Harrisonp365/MorseCodeTranslator#readme",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "babel-jest": "^27.2.5",
+    "jest": "^27.2.5"
+  }
+}

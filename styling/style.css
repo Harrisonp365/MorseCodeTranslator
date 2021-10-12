@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap");
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  color: green;
+}
+
+.header {
+  color: green;
+  font-family: "Didact Gothic", sans-serif;
+  text-align: center;
+}
+.header__h1 {
+  margin-top: 50px;
+  padding: 15px;
+  font-size: 3rem;
+}
+.header__h2 {
+  font-size: 1.8rem;
+}
