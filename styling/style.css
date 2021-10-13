@@ -20,3 +20,31 @@
 .header__h2 {
   font-size: 1.8rem;
 }
+
+.container {
+  margin-top: 2rem;
+}
+.container__input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container__input__text {
+  width: 33%;
+  height: 3rem;
+}
+.container__input__submit {
+  width: 15%;
+  height: 2rem;
+  font-size: 1.2rem;
+}
+.container__output {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container__output__text {
+  font-size: 1.2rem;
+}
