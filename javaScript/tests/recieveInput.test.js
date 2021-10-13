@@ -23,6 +23,6 @@ describe("Checks input is correct and also returns the correct output"), () => {
     };
 
     it("Should only accept lowerCase characters"),() => {
-
+        
     };
 }
