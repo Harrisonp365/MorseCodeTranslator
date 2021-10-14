@@ -9,6 +9,10 @@ export const englishToMorse = (input) => {
         translated[i] = morse[translated[i]];
     }
     translated = translated.join(" ");
+
+    if(!translated){
+        throw new Error("Output is incorrect, please make sure the correct option is selected");
+    }
     //console.log("converted: ", translated)
     return translated;
 }

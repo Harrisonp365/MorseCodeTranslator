@@ -1,3 +1,7 @@
+@use "../scssPartials/palette";
+@use "../scssPartials/typography";
+@use "./header.scss";
+
 .container {
     margin-top: 2rem;
 
@@ -24,9 +28,16 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        margin-top: 2rem;
+        border-top: 2px solid palette.$primary-color;
+        font-family: typography.$header-font;
+        font-size: typography.$small-header;
+        color: palette.$primary-text-color;
+        font-weight: bold;
 
         &__text{
-            font-size: 1.2rem;
+            font-size: 1.1rem;
+            color: black;
         }
     }
 }

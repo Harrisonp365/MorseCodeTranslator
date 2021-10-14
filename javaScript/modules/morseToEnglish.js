@@ -13,6 +13,9 @@ export const morseToEnglish = (input) => {
         translated.push(" ");
     });
 
+    if(!translated){
+        throw new Error("Output is incorrect, please make sure the correct option is selected");
+    }
     //console.log(translated.join(""));
     return translated.join("");
 }

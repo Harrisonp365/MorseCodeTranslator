@@ -44,7 +44,14 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 2rem;
+  border-top: 2px solid #4040da;
+  font-family: "Didact Gothic", sans-serif;
+  font-size: 1.4rem;
+  color: green;
+  font-weight: bold;
 }
 .container__output__text {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
+  color: black;
 }
