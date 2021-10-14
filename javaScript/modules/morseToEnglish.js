@@ -1,6 +1,9 @@
 import { alphabet } from "./alphabet.js";
 
 export const morseToEnglish = (input) => {
+    if(!input)
+        throw new Error("Output is incorrect, please make sure the correct option is selected");
+    
     let translated = [];
     //Map and split by delimiter
     input.split("/").map(function(word) {
@@ -12,10 +15,6 @@ export const morseToEnglish = (input) => {
     //Push each completed word into the arr
         translated.push(" ");
     });
-
-    if(!translated){
-        throw new Error("Output is incorrect, please make sure the correct option is selected");
-    }
-    //console.log(translated.join(""));
-    return translated.join("");
+    return translated.join("").trim();
+    //fails test without using trim as has the trailing space
 }

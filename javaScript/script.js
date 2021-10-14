@@ -11,13 +11,12 @@ translateBtn.addEventListener("click", () => {
 
     if(translateType.value === "english-to-morse"){
         translated = englishToMorse(toTrans);
-        console.log("eng to morse",translated);
+        //console.log("eng to morse",translated);
     } else if(translateType.value === "morse-to-english") {
         translated = morseToEnglish(toTrans);
-        console.log("morse to eng",translated);
-    } else {
+        //console.log("morse to eng",translated);
+    } else 
         return;
-    }
 
     const outputElem = document.createElement("p");
     outputElem.className = "container__output__text";
@@ -26,6 +25,4 @@ translateBtn.addEventListener("click", () => {
     outputElem.appendChild(outputTextNode);
     const outputContainer = document.querySelector(".container__output");
     outputContainer.appendChild(outputElem);
-
-    return translated;
-})
+});
