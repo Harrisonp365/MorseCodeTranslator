@@ -6,3 +6,5 @@ export const isMorseCode = (input) => {
         return true;
     }
 }
+
+//try to allow the user to type in either morese or english with out a selection and just convert to opposite translation
