@@ -13,6 +13,6 @@ export const morseToEnglish = (input) => {
         translated.push(" ");
     });
 
-    console.log(translated.join(""));
+    //console.log(translated.join(""));
     return translated.join("");
 }

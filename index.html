@@ -17,7 +17,13 @@
     <div class="container">
         <div class="container__input">
             <textarea class="container__input__text" type="text" placeholder="Type in your English or Morse code here. If morseCode please delmit each word by using '/'"></textarea>
-            <button class="container__input__submit">Let's translate</button>
+            <div class="container__selection">
+                <select class="container__options">
+                    <option value="english-to-morse">Convert to morse</option>
+                    <option value="morse-to-english">Convert to english</option>
+                </select>
+                <button class="container__selection__submit">Let's translate</button>
+            </div>
         </div>
         <div class="container__output">
             <p class="container__output__text">Output</p>

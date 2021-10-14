@@ -1,4 +1,4 @@
-import { morse } from "./alphabet.js";
+import { morse } from "./morse.js";
 
 export const englishToMorse = (input) => {
     let translated = input;
@@ -8,7 +8,7 @@ export const englishToMorse = (input) => {
     for(let i = 0; i < translated.length; i++) {
         translated[i] = morse[translated[i]];
     }
-    translated = translated.join("");
-    console.log("converted: ", translated)
+    translated = translated.join(" ");
+    //console.log("converted: ", translated)
     return translated;
 }
