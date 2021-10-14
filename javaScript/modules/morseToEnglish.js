@@ -1,8 +1,10 @@
 import { alphabet } from "./alphabet.js";
 //Do it using a map 
 export const morseToEnglish = (input) => {
-    if(!input)
+    if(!input) {
+        alert("Output is incorrect, please make sure the correct option is selected");
         throw new Error("Output is incorrect, please make sure the correct option is selected");
+    }
     
     let translated = [];
     //Map and split by delimiter
