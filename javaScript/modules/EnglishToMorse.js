@@ -1,5 +1,5 @@
 import { morse } from "./morse.js";
-
+//Do it a forloop way 
 export const englishToMorse = (input) => {
     if(!input)
         throw new Error("Output is incorrect, please make sure the correct option is selected");

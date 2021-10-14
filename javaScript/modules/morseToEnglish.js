@@ -1,5 +1,5 @@
 import { alphabet } from "./alphabet.js";
-
+//Do it using a map 
 export const morseToEnglish = (input) => {
     if(!input)
         throw new Error("Output is incorrect, please make sure the correct option is selected");
@@ -18,3 +18,5 @@ export const morseToEnglish = (input) => {
     return translated.join("").trim();
     //fails test without using trim as has the trailing space
 }
+
+//would also like to do it using swap key val pairs

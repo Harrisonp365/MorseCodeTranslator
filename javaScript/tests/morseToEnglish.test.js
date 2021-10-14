@@ -14,3 +14,5 @@ describe("Returns the correct output", () => {
         expect(() => morseToEnglish()).toThrowError(returnError);
     });
 });
+
+//unsure of what other tests I can run and how, would like to run a test given incorrect output it errors
